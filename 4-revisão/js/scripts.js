@@ -48,3 +48,37 @@ if(idade >= 18){
 else{
     alert("Não pode entrar")
 }
+
+for (let i = 0; i <= 50; i++){
+    console.log(`O valor de i é: ${i}`)
+}
+
+let p = 0;
+
+while (p < 5){
+    console.log(`Repetindo ${p}`)
+    p++
+}
+
+// let g = 10
+
+// do{
+//     console.log(`Valor de G: ${g}`)
+//     g = g -1
+// }while(g > 1)
+
+const trabalho = prompt("Digite seu trabalho")
+
+switch(trabalho){
+    case "Programador":
+    console.log("Você gosta de programar!");
+    break;
+        case "Engenheiro":
+            console.log("Você gosta de cálculo!");
+            break;
+            case "Advogado":
+                console.log("Você gosta de justiça!");
+                break;
+                default:
+                    console.log("Profissão não encontrada 😥");
+}
